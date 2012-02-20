@@ -133,7 +133,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
 INSERT INTO `wp_options` (`option_id`, `blog_id`, `option_name`, `option_value`, `autoload`) VALUES
 (1, 0, '_site_transient_timeout_theme_roots', '1329172082', 'yes'),
 (2, 0, '_site_transient_theme_roots', 'a:2:{s:12:"twentyeleven";s:7:"/themes";s:9:"twentyten";s:7:"/themes";}', 'yes'),
-(3, 0, 'siteurl', 'http://rempo.loc', 'yes'),
+(3, 0, 'siteurl', 'http://rempocb.loc', 'yes'),
 (4, 0, 'blogname', 'rempocb', 'yes'),
 (5, 0, 'blogdescription', 'Další web používající WordPress', 'yes'),
 (6, 0, 'users_can_register', '0', 'yes'),
@@ -169,7 +169,7 @@ INSERT INTO `wp_options` (`option_id`, `blog_id`, `option_name`, `option_value`,
 (36, 0, 'blog_charset', 'UTF-8', 'yes'),
 (37, 0, 'moderation_keys', '', 'no'),
 (38, 0, 'active_plugins', 'a:0:{}', 'yes'),
-(39, 0, 'home', 'http://rempo.loc', 'yes'),
+(39, 0, 'home', 'http://rempocb.loc', 'yes'),
 (40, 0, 'category_base', '', 'yes'),
 (41, 0, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (42, 0, 'advanced_edit', '0', 'yes'),
@@ -306,8 +306,8 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(1, 1, '2012-02-13 20:28:06', '2012-02-13 20:28:06', 'Vítejte ve WordPressu. Toto je váš první testovací příspěvek. Můžete ho upravit, nebo smazat a postupně pak začít s tvorbou vlastního webu.', 'Ahoj všichni!', '', 'publish', 'open', 'open', '', 'ahoj-vsichni', '', '', '2012-02-13 20:28:06', '2012-02-13 20:28:06', '', 0, 'http://rempo.loc/?p=1', 0, 'post', '', 1),
-(2, 1, '2012-02-13 20:28:06', '2012-02-13 20:28:06', 'Právě si prohlížíte ukázkovou stránku, která byla vytvořena automaticky během instalace WordPressu. Stránky se liší od příspěvků zejména tím, že obsahují nějaký statický text a jsou zobrazovány na stále stejném místě webu (u většiny šablon jde o navigační menu). Lidé obvykle nejdříve vytvářejí základní informační stránky, kde se představují návštěvníkům webu a seznamují je se svými záměry. Může to být např. něco v následujícím stylu (osobní web):\n\n<blockquote>Vítejte! Jmenuju se Pavel a bydlím na venkově. Pracuju jako programátor a po nocích překládáme WordPress do češtiny. A tohle je můj web, kde se občas dozvíte nejen něco o programování, ale i o mé rodině a cestování. Rádi totiž jezdíme na výlety, a to bez ohledu na počasí, protože já zpívám v dešti rád...</blockquote>\n\n... a nebo něco podobného (firemní web):\n\n<blockquote>Firma XYZ byla založena v roce 1991 a již od počátku se zabývá výrobou kvalitního jablečného moštu. Soustředíme se na zpracování ovoce od drobných pěstitelů a naše výrobky neobsahují žádné další chemické přísady. Firma sídlí v Liberci a zaměstnává více než 200 kvalifikovaných lidí.</blockquote>\n\nPokud s WordPressem právě začínáte, měli byste se nejdříve přihlásit do <a href="http://rempo.loc/wp-admin/">administrace</a> a tuto stránku smazat (nebo upravit). A nic už vám také nebrání vytvářet další obsah webu v podobě nových stránek a příspěvků. Doufáme, že budete se správou webu v redakčním systému WordPress spokojeni!', 'Zkušební stránka', '', 'publish', 'open', 'open', '', 'zkusebni-stranka', '', '', '2012-02-13 20:28:06', '2012-02-13 20:28:06', '', 0, 'http://rempo.loc/?page_id=2', 0, 'page', '', 0);
+(1, 1, '2012-02-13 20:28:06', '2012-02-13 20:28:06', 'Vítejte ve WordPressu. Toto je váš první testovací příspěvek. Můžete ho upravit, nebo smazat a postupně pak začít s tvorbou vlastního webu.', 'Ahoj všichni!', '', 'publish', 'open', 'open', '', 'ahoj-vsichni', '', '', '2012-02-13 20:28:06', '2012-02-13 20:28:06', '', 0, 'http://rempocb.loc/?p=1', 0, 'post', '', 1),
+(2, 1, '2012-02-13 20:28:06', '2012-02-13 20:28:06', 'Právě si prohlížíte ukázkovou stránku, která byla vytvořena automaticky během instalace WordPressu. Stránky se liší od příspěvků zejména tím, že obsahují nějaký statický text a jsou zobrazovány na stále stejném místě webu (u většiny šablon jde o navigační menu). Lidé obvykle nejdříve vytvářejí základní informační stránky, kde se představují návštěvníkům webu a seznamují je se svými záměry. Může to být např. něco v následujícím stylu (osobní web):\n\n<blockquote>Vítejte! Jmenuju se Pavel a bydlím na venkově. Pracuju jako programátor a po nocích překládáme WordPress do češtiny. A tohle je můj web, kde se občas dozvíte nejen něco o programování, ale i o mé rodině a cestování. Rádi totiž jezdíme na výlety, a to bez ohledu na počasí, protože já zpívám v dešti rád...</blockquote>\n\n... a nebo něco podobného (firemní web):\n\n<blockquote>Firma XYZ byla založena v roce 1991 a již od počátku se zabývá výrobou kvalitního jablečného moštu. Soustředíme se na zpracování ovoce od drobných pěstitelů a naše výrobky neobsahují žádné další chemické přísady. Firma sídlí v Liberci a zaměstnává více než 200 kvalifikovaných lidí.</blockquote>\n\nPokud s WordPressem právě začínáte, měli byste se nejdříve přihlásit do <a href="http://rempocb.loc/wp-admin/">administrace</a> a tuto stránku smazat (nebo upravit). A nic už vám také nebrání vytvářet další obsah webu v podobě nových stránek a příspěvků. Doufáme, že budete se správou webu v redakčním systému WordPress spokojeni!', 'Zkušební stránka', '', 'publish', 'open', 'open', '', 'zkusebni-stranka', '', '', '2012-02-13 20:28:06', '2012-02-13 20:28:06', '', 0, 'http://rempocb.loc/?page_id=2', 0, 'page', '', 0);
 
 -- --------------------------------------------------------
 

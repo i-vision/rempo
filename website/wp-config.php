@@ -19,10 +19,10 @@
 define('DB_NAME', 'rempocb_cz');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'rempocb_cz');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'PcMSHZLKnHp6zDM2');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
